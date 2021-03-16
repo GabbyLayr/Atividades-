@@ -1,0 +1,35 @@
+algoritmo funcionario;
+// Síntese
+//  Objetivo: apresentar dados do funcionario 
+//  Entrada : informações do funcionario
+//  Saída   : apresentação dos dados e salario 
+
+
+principal
+	// Declarações
+	texto nome;
+	inteiro idade;
+	real horasTrabalhadas, valorPorHorasTrabalhadas, salario;
+	caracter sexo;
+	// Instruções
+	//pedir ao funcionario/usuario suas informações - ENTRADA
+	escreva ("digite seu nome: "); //mostrar em tela
+	leia (nome); //processar dados inseridos na variavel nome
+	escreva ("digite sua idade: "); //mostrar em tela
+	leia (idade); //processar dados inseridos na variavel idade
+	escreva ("digite seu sexo: "); //mostrar em tela
+	leiaCaracter (sexo); //processar dados inseridos na variavel sexo
+	escreva ("digite horas trabalhadas: "); //mostrar em tela
+	leia (horasTrabalhadas); //processar dados inseridos na variavel horas trabalhadas
+	escreva ("digite o valor por horas trabalhadas: "); //mostrar em tela
+	leia (valorPorHorasTrabalhadas); //processar dados inseridos na variavel horas trabalhadas
+	//calculo do salário - PROCESSAMENTO
+	salario = valorPorHorasTrabalhadas * horasTrabalhadas;
+	// apresentação dos dados do funcionário - SAIDA
+	escreval ("nome: ", nome);
+	escreval ("idade: ", idade);
+	escreval ("sexo: ", sexo);
+	escreval ("horas trabalhadas: ", horasTrabalhadas);
+	escreval ("valor por horas trabalhadas: ", valorPorHorasTrabalhadas);
+	escreval ("salario:", salario);
+fimPrincipal

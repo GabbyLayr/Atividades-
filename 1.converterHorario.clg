@@ -1,0 +1,21 @@
+algoritmo converterHorario;
+// Síntese
+//  Objetivo: converter horas em minutos e sugundos
+//  Entrada : hora
+//  Saída   : minutos e segundos
+
+
+principal
+	// Declarações
+	real horas, minutos, segundos;
+	// Instruções
+	//perguntar ao usuáriario as horas - ENTRADA
+	escreva ("digite as horas: "); // mostrar em tela
+	leia (horas); //receber dado digitado na variavel hora
+	// fazer converção de horas em minutos - PROCESSAMENTO
+	minutos = horas * 60;
+	segundos = horas * 3600;
+	//apresentar resultado - SAÍDA
+	escreval (minutos);
+	escreval (segundos);
+fimPrincipal

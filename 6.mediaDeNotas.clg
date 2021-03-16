@@ -1,0 +1,23 @@
+algoritmo mediaDeNotas;
+// Síntese
+//  Objetivo: Calcular a media de duas notas  
+//  Entrada : Nota A e Nota B
+//  Saída   : média de A mais B
+
+
+principal
+	// Declarações
+	real notaA, notaB, NFA, NFB, media;
+	// Instruções
+	// pedir ao aluno/usuaria as notas A e B - ENTRADA
+	escreva ("digite nota A: "); //mostrar em tela
+	leia (notaA); //processar dado inserido na variavel nota A
+	escreva ("digite nota B: "); //mostrar em tela
+	leia (notaB); //processar dado inserido na variavel nota B
+	// calcular media das duas notas - PROCESSAMENTO
+	NFA = notaA * 3.5; //calculo de peso A 
+	NFB = notaB * 7.5; //calculo de peso B 
+	media = NFA + NFB / 2;
+	// apresentar resultado final - SAIDA
+	escreval ("media final: ", media);
+fimPrincipal

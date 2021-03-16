@@ -1,0 +1,21 @@
+algoritmo quoeficienteDaDivisao;
+// Síntese
+//  Objetivo:  calcular o quoeficiente da dividão do primeiro numero pelo segundo numero
+//  Entrada : numero 1 e numero 2
+//  Saída   : quoeficiente
+
+
+principal
+	// Declarações
+	real numero1, numero2, quoeficiente;
+	// Instruções
+	//perguntar ao usuario os dois numeros - ENTRADA
+	escreva ("digite numero1: "); //mostrar em tela
+	leia (numero1); 
+	escreva ("digite numero2:"); //mostrar em tela
+	leia(numero2); //receber dado
+	//calculo de divisão - PROCESSAMENTO
+	quoeficiente = numero1 / numero2;
+	//mostrar resultado/quoeficiente - SAIDA
+	escreva (quoeficiente);
+fimPrincipal

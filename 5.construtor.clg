@@ -1,0 +1,20 @@
+algoritmo construtor;
+// Síntese
+//  Objetivo: Fazer um algoritmo para auxiliar um construtor a descobrir a quantidade de rolos e a quantidade em metros avulsos
+//  Entrada : metros
+//  Saída   : rolos e metragem avulsa 
+
+
+principal
+	// Declarações
+	real metros, rolos, x, primeiro;
+	// Instruções
+    // pedir ao construtor/usuário para inserir a quantidade em metros de fios - ENTRADA
+	escreva ("digite quantos metros serão utilizados: "); //motrar em tela ao usuario 
+	leia (metros); // receba dado digitado na variavel metros
+	// calcular quantos rolos seram utilizados e os metros a mais - PROCESSAMENTO
+	primeiro = 1 * metros;
+	rolos = primeiro / 50;
+	// apresentar resultado - SAÍDA
+	escreva (rolos);
+fimPrincipal
